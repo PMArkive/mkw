@@ -615,7 +615,7 @@ lbl_8006a9d8:
 
 // PAL: 0x8006a9f0..0x8006aa80
 MARK_BINARY_BLOB(Camera_GXSetViewport, 0x8006a9f0, 0x8006aa80);
-asm void Camera::GXSetViewport_() const {
+asm void Camera::GXSetViewport() const {
   // clang-format off
   nofralloc;
   stwu r1, -0x10(r1);
@@ -658,7 +658,7 @@ lbl_8006aa60:
 
 // PAL: 0x8006aa80..0x8006ab50
 MARK_BINARY_BLOB(Camera_GXSetProjection, 0x8006aa80, 0x8006ab50);
-asm void Camera::GXSetProjection_() const {
+asm void Camera::GXSetProjection() const {
   // clang-format off
   nofralloc;
   stwu r1, -0x10(r1);
@@ -721,7 +721,7 @@ lbl_8006ab34:
 
 // PAL: 0x8006ab50..0x8006ab80
 MARK_BINARY_BLOB(Camera_GXSetScissor, 0x8006ab50, 0x8006ab80);
-asm void Camera::GXSetScissor_() const {
+asm void Camera::GXSetScissor() const {
   // clang-format off
   nofralloc;
   lwz r6, 0(r3);
@@ -738,7 +738,7 @@ asm void Camera::GXSetScissor_() const {
 
 // PAL: 0x8006ab80..0x8006aba0
 MARK_BINARY_BLOB(Camera_GXSetScissorBoxOffset, 0x8006ab80, 0x8006aba0);
-asm void Camera::GXSetScissorBoxOffset_() const {
+asm void Camera::GXSetScissorBoxOffset() const {
   // clang-format off
   nofralloc;
   lwz r4, 0(r3);

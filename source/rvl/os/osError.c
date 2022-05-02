@@ -530,6 +530,10 @@ lbl_801a2ccc:
   mtlr r0;
   addi r1, r1, 0x30;
   blr;
+  // clang-format on
+}
+
+asm void PackArgs() {
   stwu r1, -0x30(r1);
   mflr r0;
   stw r0, 0x34(r1);
@@ -564,10 +568,10 @@ lbl_801a2d58:
   subf r0, r30, r26;
   stw r0, 0(r28);
 lbl_801a2d80:
-  addic. r25, r25, -1;
+  addic.r25, r25, -1;
   addi r28, r28, -4;
   bge lbl_801a2d58;
-  addic. r3, r31, 1;
+  addic.r3, r31, 1;
   subf r0, r30, r26;
   rlwinm r4, r0, 0, 0, 0x1d;
   li r7, 0;

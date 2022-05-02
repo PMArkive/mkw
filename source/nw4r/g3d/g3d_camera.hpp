@@ -124,13 +124,13 @@ struct Camera {
   // PAL: 0x8006a970
   void GetEnvironmentTexMtx(math::MTX34*) const;
   // PAL: 0x8006a9f0
-  void GXSetViewport_() const;
+  void GXSetViewport() const;
   // PAL: 0x8006aa80
-  void GXSetProjection_() const;
+  void GXSetProjection() const;
   // PAL: 0x8006ab50
-  void GXSetScissor_() const;
+  void GXSetScissor() const;
   // PAL: 0x8006ab80
-  void GXSetScissorBoxOffset_() const;
+  void GXSetScissorBoxOffset() const;
   // PAL: 0x8006aba0
   void UpdateCameraMtx() const;
 };
