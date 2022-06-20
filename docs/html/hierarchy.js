@@ -42,6 +42,7 @@ var hierarchy =
     [ "Field::ObjectParameter::Parameter::Data", "class_field_1_1_object_parameter.html#struct_field_1_1_object_parameter_1_1_parameter_1_1_data", null ],
     [ "System::Date", "class_system_1_1_date.html", null ],
     [ "UI::Deferred< T >", "struct_u_i_1_1_deferred.html", null ],
+    [ "UI::Deferred< UI::Element >", "struct_u_i_1_1_deferred.html", null ],
     [ "EGG::Display", "class_e_g_g_1_1_display.html", null ],
     [ "System::DvdArchive", "class_system_1_1_dvd_archive.html", null ],
     [ "EGG::DvdRipper", "class_e_g_g_1_1_dvd_ripper.html", null ],
@@ -82,6 +83,7 @@ var hierarchy =
     [ "EGG::HeapAllocArg", "struct_e_g_g_1_1_heap_alloc_arg.html", null ],
     [ "HeapCollection", "struct_heap_collection.html", null ],
     [ "EGG::HeapErrorArg", "struct_e_g_g_1_1_heap_error_arg.html", null ],
+    [ "System::JobContext", "struct_system_1_1_job_context.html", null ],
     [ "Kart::KartComponent", "class_kart_1_1_kart_component.html", null ],
     [ "Field::MapdataStage::lensFlareOptions_t", "struct_field_1_1_mapdata_stage.html#struct_field_1_1_mapdata_stage_1_1lens_flare_options__t", null ],
     [ "nw4r::ut::List", "structnw4r_1_1ut_1_1_list.html", null ],
@@ -124,7 +126,8 @@ var hierarchy =
         [ "EGG::Scene", "class_e_g_g_1_1_scene.html", [
           [ "RKScene", "class_r_k_scene.html", null ],
           [ "System::BootStrapScene", "class_system_1_1_boot_strap_scene.html", null ]
-        ] ]
+        ] ],
+        [ "System::CourseCache", "class_system_1_1_course_cache.html", null ]
       ] ]
     ] ],
     [ "Field::ObjectDirector", "class_field_1_1_object_director.html", null ],
@@ -148,11 +151,18 @@ var hierarchy =
     [ "Util::Random", "class_util_1_1_random.html", null ],
     [ "System::RawGhostFile", "struct_system_1_1_raw_ghost_file.html", null ],
     [ "nw4r::g3d::ResCommon< T >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
+    [ "nw4r::g3d::ResCommon< const nw4r::g3d::ResNameData >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
+    [ "nw4r::g3d::ResCommon< nw4r::g3d::CameraData >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
+    [ "nw4r::g3d::ResCommon< nw4r::g3d::FogData >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
     [ "nw4r::g3d::ResName", "structnw4r_1_1g3d_1_1_res_name.html", null ],
     [ "nw4r::g3d::ResNameData", "structnw4r_1_1g3d_1_1_res_name_data.html", null ],
+    [ "System::ResourceManager", "class_system_1_1_resource_manager.html", null ],
     [ "nw4r::ut::detail::RuntimeTypeInfo", "structnw4r_1_1ut_1_1detail_1_1_runtime_type_info.html", null ],
     [ "rvlArchive", "classrvl_archive.html", [
       [ "EGG::LowArchive", "struct_e_g_g_1_1_low_archive.html", null ]
+    ] ],
+    [ "System::S", "struct_system_1_1_s.html", [
+      [ "System::MenuCharacterManager", "class_system_1_1_menu_character_manager.html", null ]
     ] ],
     [ "EGG::SceneCreator", "class_e_g_g_1_1_scene_creator.html", [
       [ "System::SceneCreatorStatic", "class_system_1_1_scene_creator_static.html", null ]
@@ -176,6 +186,9 @@ var hierarchy =
     [ "System::SystemManager.mSimpleAddressData", "struct_system_1_1_system_manager_8m_simple_address_data.html", null ],
     [ "System::Resource::SystemResourceEntry", "struct_system_1_1_resource_1_1_system_resource_entry.html", null ],
     [ "System::SystemManager::SystemRipper", "class_system_1_1_system_manager.html#struct_system_1_1_system_manager_1_1_system_ripper", null ],
+    [ "System::T", "struct_system_1_1_t.html", [
+      [ "System::MenuCharacterManager", "class_system_1_1_menu_character_manager.html", null ]
+    ] ],
     [ "EGG::Thread", "class_e_g_g_1_1_thread.html", [
       [ "EGG::TaskThread", "class_e_g_g_1_1_task_thread.html", null ]
     ] ],

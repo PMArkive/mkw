@@ -9,6 +9,7 @@ var searchData=
   ['color_6',['Color',['../structnw4r_1_1ut_1_1_color.html',1,'nw4r::ut']]],
   ['colorfader_7',['ColorFader',['../class_e_g_g_1_1_color_fader.html',1,'EGG']]],
   ['controlgroup_8',['ControlGroup',['../class_u_i_1_1_control_group.html',1,'UI']]],
-  ['coursedvdarchive_9',['CourseDvdArchive',['../class_system_1_1_course_dvd_archive.html',1,'System']]],
-  ['coursemap_10',['CourseMap',['../class_field_1_1_course_map.html',1,'Field']]]
+  ['coursecache_9',['CourseCache',['../class_system_1_1_course_cache.html',1,'System']]],
+  ['coursedvdarchive_10',['CourseDvdArchive',['../class_system_1_1_course_dvd_archive.html',1,'System']]],
+  ['coursemap_11',['CourseMap',['../class_field_1_1_course_map.html',1,'Field']]]
 ];
