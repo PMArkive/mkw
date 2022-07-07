@@ -152,7 +152,9 @@ var annotated_dup =
       [ "SystemManager.mSimpleAddressData", "struct_system_1_1_system_manager_8m_simple_address_data.html", null ],
       [ "T", "struct_system_1_1_t.html", null ],
       [ "Time", "class_system_1_1_time.html", null ],
-      [ "UIDvdArchive", "class_system_1_1_u_i_dvd_archive.html", null ]
+      [ "UIDvdArchive", "class_system_1_1_u_i_dvd_archive.html", null ],
+      [ "Whatever", "struct_system_1_1_whatever.html", null ],
+      [ "Whatever2", "struct_system_1_1_whatever2.html", null ]
     ] ],
     [ "UI", null, [
       [ "ControlGroup", "class_u_i_1_1_control_group.html", "class_u_i_1_1_control_group" ],
@@ -171,11 +173,16 @@ var annotated_dup =
     [ "BoxColManager", "class_box_col_manager.html", null ],
     [ "BoxColRightPoint", "struct_box_col_right_point.html", null ],
     [ "BoxColUnit", "struct_box_col_unit.html", null ],
+    [ "Dummy", "class_dummy.html", null ],
+    [ "GameScene", "struct_game_scene.html", null ],
     [ "HeapCollection", "struct_heap_collection.html", null ],
     [ "MEMAllocator", "class_m_e_m_allocator.html", null ],
     [ "MEMiUntHeapHead", "class_m_e_mi_unt_heap_head.html", null ],
     [ "NonCopyable", "class_non_copyable.html", null ],
     [ "ProcessInfo", "struct_process_info.html", null ],
+    [ "RaceConfig", "struct_race_config.html", null ],
+    [ "RaceConfigPlayer", "struct_race_config_player.html", null ],
+    [ "RaceConfigScenario", "struct_race_config_scenario.html", null ],
     [ "RKScene", "class_r_k_scene.html", null ],
     [ "rvlArchive", "classrvl_archive.html", null ]
 ];

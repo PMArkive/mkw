@@ -96,28 +96,29 @@ $(document).ready(function(){initNavTree('egg_stream_decomp_8hpp_source.html',''
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_e_g_g_1_1_stream_decomp.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="class_e_g_g_1_1_stream_decomp.html">StreamDecomp</a> {</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> init(<span class="keywordtype">void</span>* dst, u32 maxCompressedSize) = 0;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> decomp(<span class="keyword">const</span> <span class="keywordtype">void</span>* src, u32 len) = 0;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  <span class="keyword">virtual</span> u32 getHeaderSize() = 0;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  <span class="keyword">virtual</span> u32 getUncompressedSize(<span class="keyword">const</span> <span class="keywordtype">void</span>* src) = 0;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>};</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_e_g_g_1_1_l_z_stream_decomp.html">   25</a></span><span class="keyword">class </span><a class="code hl_class" href="class_e_g_g_1_1_l_z_stream_decomp.html">LZStreamDecomp</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_e_g_g_1_1_stream_decomp.html">StreamDecomp</a> {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keywordtype">bool</span> init(<span class="keywordtype">void</span>* dst, u32 maxCompressedSize) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  <span class="keywordtype">bool</span> decomp(<span class="keyword">const</span> <span class="keywordtype">void</span>* src, u32 len) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  u32 getHeaderSize() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  u32 getUncompressedSize(<span class="keyword">const</span> <span class="keywordtype">void</span>* src) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <span class="keywordtype">void</span>* mpDst; </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  u32 mMaxCompressedSize; </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  CXUncompContextLZ</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>      mContext; </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>} <span class="comment">// namespace EGG</span></div>
-<div class="ttc" id="aclass_e_g_g_1_1_l_z_stream_decomp_html"><div class="ttname"><a href="class_e_g_g_1_1_l_z_stream_decomp.html">EGG::LZStreamDecomp</a></div><div class="ttdef"><b>Definition:</b> eggStreamDecomp.hpp:25</div></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> init(<span class="keywordtype">void</span>* dst, u32 maxCompressedSize);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> decomp(<span class="keyword">const</span> <span class="keywordtype">void</span>* src, u32 len);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  <span class="keyword">virtual</span> u32 getHeaderSize();</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  <span class="keyword">virtual</span> u32 getUncompressedSize(<span class="keyword">const</span> <span class="keywordtype">void</span>* src);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  <span class="keywordtype">void</span> foo();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_e_g_g_1_1_l_z_stream_decomp.html">   26</a></span><span class="keyword">class </span><a class="code hl_class" href="class_e_g_g_1_1_l_z_stream_decomp.html">LZStreamDecomp</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_e_g_g_1_1_stream_decomp.html">StreamDecomp</a> {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  <span class="keywordtype">bool</span> init(<span class="keywordtype">void</span>* dst, u32 maxCompressedSize) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <span class="keywordtype">bool</span> decomp(<span class="keyword">const</span> <span class="keywordtype">void</span>* src, u32 len) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  u32 getHeaderSize() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  u32 getUncompressedSize(<span class="keyword">const</span> <span class="keywordtype">void</span>* src) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keywordtype">void</span>* mpDst; </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  u32 mMaxCompressedSize; </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  CXUncompContextLZ</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>      mContext; </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>} <span class="comment">// namespace EGG</span></div>
+<div class="ttc" id="aclass_e_g_g_1_1_l_z_stream_decomp_html"><div class="ttname"><a href="class_e_g_g_1_1_l_z_stream_decomp.html">EGG::LZStreamDecomp</a></div><div class="ttdef"><b>Definition:</b> eggStreamDecomp.hpp:26</div></div>
 <div class="ttc" id="aclass_e_g_g_1_1_stream_decomp_html"><div class="ttname"><a href="class_e_g_g_1_1_stream_decomp.html">EGG::StreamDecomp</a></div><div class="ttdoc">Interface for streamed decompression.</div><div class="ttdef"><b>Definition:</b> eggStreamDecomp.hpp:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

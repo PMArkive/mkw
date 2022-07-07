@@ -44,6 +44,7 @@ var hierarchy =
     [ "UI::Deferred< T >", "struct_u_i_1_1_deferred.html", null ],
     [ "UI::Deferred< UI::Element >", "struct_u_i_1_1_deferred.html", null ],
     [ "EGG::Display", "class_e_g_g_1_1_display.html", null ],
+    [ "Dummy", "class_dummy.html", null ],
     [ "System::DvdArchive", "class_system_1_1_dvd_archive.html", null ],
     [ "EGG::DvdRipper", "class_e_g_g_1_1_dvd_ripper.html", null ],
     [ "UI::Element", "struct_u_i_1_1_element.html", null ],
@@ -72,6 +73,7 @@ var hierarchy =
     [ "nw4r::ut::FontWidth", "structnw4r_1_1ut_1_1_font_width.html", null ],
     [ "nw4r::snd::detail::FrameHeap", "structnw4r_1_1snd_1_1detail_1_1_frame_heap.html", null ],
     [ "UI::ControlGroup::Functor", "struct_u_i_1_1_control_group_1_1_functor.html", null ],
+    [ "GameScene", "struct_game_scene.html", null ],
     [ "Field::GeoHitTableItemObjManager", "class_field_1_1_geo_hit_table_item_obj_manager.html", null ],
     [ "System::GhostFile", "class_system_1_1_ghost_file.html", null ],
     [ "System::GhostFileGroup", "class_system_1_1_ghost_file_group.html", null ],
@@ -148,6 +150,9 @@ var hierarchy =
     [ "nw4r::g3d::Camera::PostureInfo", "structnw4r_1_1g3d_1_1_camera.html#structnw4r_1_1g3d_1_1_camera_1_1_posture_info", null ],
     [ "ProcessInfo", "struct_process_info.html", null ],
     [ "EGG::Quatf", "class_e_g_g_1_1_quatf.html", null ],
+    [ "RaceConfig", "struct_race_config.html", null ],
+    [ "RaceConfigPlayer", "struct_race_config_player.html", null ],
+    [ "RaceConfigScenario", "struct_race_config_scenario.html", null ],
     [ "Util::Random", "class_util_1_1_random.html", null ],
     [ "System::RawGhostFile", "struct_system_1_1_raw_ghost_file.html", null ],
     [ "nw4r::g3d::ResCommon< T >", "classnw4r_1_1g3d_1_1_res_common.html", null ],
@@ -199,5 +204,7 @@ var hierarchy =
     [ "UI::UnkStruct", "struct_u_i_1_1_unk_struct.html", null ],
     [ "EGG::Vector2f", "struct_e_g_g_1_1_vector2f.html", null ],
     [ "EGG::Vector3f", "struct_e_g_g_1_1_vector3f.html", null ],
-    [ "EGG::Video", "class_e_g_g_1_1_video.html", null ]
+    [ "EGG::Video", "class_e_g_g_1_1_video.html", null ],
+    [ "System::Whatever", "struct_system_1_1_whatever.html", null ],
+    [ "System::Whatever2", "struct_system_1_1_whatever2.html", null ]
 ];
